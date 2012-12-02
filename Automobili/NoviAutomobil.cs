@@ -31,6 +31,36 @@ namespace Automobili
 
         private void buttonSnimi_Click(object sender, EventArgs e)
         {
+
+            //kreiranje novog objekta tipa Automobil
+            noviautomobil1 = new Automobil();
+            //pristup odgovarajućim atributima klase Automobil
+            noviautomobil1.Model = textBoxModel.Text;
+            noviautomobil1.Proizvodjac = textBoxProizvodjac.Text;
+            noviautomobil1.Klasa = comboBoxKlasa.Text;
+            noviautomobil1.Kubikaza = domainUpDownKubikaza.Text;
+            DialogResult = DialogResult.OK;
+        }
+
+        private void buttonOtkazi_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Cancel;
+        }
+
+        private void domainUpDownKubikaza_ValueChanged(object sender, EventArgs e)
+        {
+            // Izvršava se svaki put kada promenimo vrednost
+            this.Text = domainUpDownKubikaza.Text;
+        }
+
+        private void domainUpDownKubikaza_Click(object sender, EventArgs e)
+        {
+            this.Text = domainUpDownKubikaza.Text = "1000";
+        }
+
+        private void domainUpDownKubikaza_KeyDown(object sender, KeyEventArgs e)
+            //private void domainUpDownKubikaza_KeyUp(object sender, KeyEventArgs e)
+        {
             // Kubikaze.
             DomainUpDown.DomainUpDownItemCollection items = this.domainUpDownKubikaza.Items;
             items.Add("900");
@@ -45,19 +75,6 @@ namespace Automobili
             items.Add("4000");
             items.Add("5000");
             items.Add("6000");
-            //kreiranje novog objekta tipa Automobil
-            noviautomobil1 = new Automobil();
-            //pristup odgovarajućim atributima klase Automobil
-            noviautomobil1.Model = textBoxModel.Text;
-            noviautomobil1.Proizvodjac = textBoxProizvodjac.Text;
-            noviautomobil1.Klasa = comboBoxKlasa.Text;
-            noviautomobil1.Kubikaza = domainUpDownKubikaza.Text;
-            DialogResult = DialogResult.OK;
-        }
-
-        private void buttonOtkazi_Click(object sender, EventArgs e)
-        {
-            DialogResult = DialogResult.Cancel;
         }
 
     }

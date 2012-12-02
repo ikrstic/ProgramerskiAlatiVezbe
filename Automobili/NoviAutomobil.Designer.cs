@@ -111,7 +111,8 @@
             this.domainUpDownKubikaza.Name = "domainUpDownKubikaza";
             this.domainUpDownKubikaza.Size = new System.Drawing.Size(182, 20);
             this.domainUpDownKubikaza.TabIndex = 7;
-            this.domainUpDownKubikaza.Text = "1000";
+            this.domainUpDownKubikaza.Click += new System.EventHandler(this.domainUpDownKubikaza_Click);
+            this.domainUpDownKubikaza.KeyDown += new System.Windows.Forms.KeyEventHandler(this.domainUpDownKubikaza_KeyDown);
             // 
             // buttonSnimi
             // 
