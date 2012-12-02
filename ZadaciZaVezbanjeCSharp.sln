@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichTextBoxKontrola", "Rich
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBoxKontrola", "CheckBoxKontrola\CheckBoxKontrola.csproj", "{6657D786-B922-4976-A72B-0E03DE4834BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vezba16PripremaPrvogKolokvijuma", "Vezba16PripremaPrvogKolokvijuma\Vezba16PripremaPrvogKolokvijuma.csproj", "{02C36E1F-80ED-44E4-8ED0-A35789A0A97A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automobili", "Automobili\Automobili.csproj", "{0C8E44A5-573A-44CD-B353-694B0A692A93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,14 @@ Global
 		{6657D786-B922-4976-A72B-0E03DE4834BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6657D786-B922-4976-A72B-0E03DE4834BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6657D786-B922-4976-A72B-0E03DE4834BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C36E1F-80ED-44E4-8ED0-A35789A0A97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C36E1F-80ED-44E4-8ED0-A35789A0A97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C36E1F-80ED-44E4-8ED0-A35789A0A97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C36E1F-80ED-44E4-8ED0-A35789A0A97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8E44A5-573A-44CD-B353-694B0A692A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8E44A5-573A-44CD-B353-694B0A692A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8E44A5-573A-44CD-B353-694B0A692A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8E44A5-573A-44CD-B353-694B0A692A93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
